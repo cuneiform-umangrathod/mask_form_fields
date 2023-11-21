@@ -5,7 +5,14 @@ form {
   gap: 1rem ;
 }
 
-form div{
+form .form-main{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+
+ .form-main .form-field{
   display: flex;
   gap: 1rem;
 }
